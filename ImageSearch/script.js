@@ -6,7 +6,7 @@ const ShowMoreBtn = document.getElementById("show-more-btn");
 let keyword = "";
 let page = 1;
 
-const accessKey = "";
+const accessKey = "";   // Include your access key here
 
 const searchImages = async () => {
     keyword = searchBox?.value;
