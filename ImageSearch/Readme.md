@@ -1,11 +1,12 @@
 #### What are Pseudo-classes?
 
-###### A pseudo-class is used to define a *special state* of an element.
+###### A pseudo-class is used to define a **special state** of an element.
 
 ###### For example, it can be used to:
-    Style an element when a user mouses over it
-    Style visited and unvisited links differently
-    Style an element when it gets focus
+    
+    1.  Style an element when a user mouses over it
+    2.  Style visited and unvisited links differently
+    3.  Style an element when it gets focus
 
         /* unvisited link */
         a:link {
@@ -34,16 +35,16 @@
 
 ###### Pseudo-class names are not case-sensitive.
 
-
+- - - -
 
 #### What are Pseudo-Elements?
 
-###### A CSS pseudo-element is used to style *specified parts* of an element.
+###### A CSS pseudo-element is used to style **specified parts** of an element.
 
 ###### For example, it can be used to:
 
-    Style the first letter, or line, of an element
-    Insert content before, or after, the content of an element
+    1.  Style the first letter, or line, of an element
+    2.  Insert content before, or after, the content of an element
 
         p::first-letter {
             color: #ff0000;
