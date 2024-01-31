@@ -1,14 +1,14 @@
 #### What are Pseudo-classes?
 
-###### A pseudo-class is used to define a *special state* of an element.
+#### A pseudo-class is used to define a *special state* of an element.
 
-###### For example, it can be used to:
+##### For example, it can be used to:
     
-1.  Style an element when a user mouses over it
+1.  ##### Style an element when a user mouses over it
 
-2.  Style visited and unvisited links differently
+2.  ##### Style visited and unvisited links differently
 
-3.  Style an element when it gets focus
+3.  ##### Style an element when it gets focus
 
         /* unvisited link */
         a:link {
@@ -41,13 +41,13 @@
 
 #### What are Pseudo-Elements?
 
-###### A CSS pseudo-element is used to style *specified parts* of an element.
+#### A CSS pseudo-element is used to style *specified parts* of an element.
 
-###### For example, it can be used to:
+##### For example, it can be used to:
 
-1.  Style the first letter, or line, of an element
+1.  ##### Style the first letter, or line, of an element
 
-2.  Insert content before, or after, the content of an element
+2.  ##### Insert content before, or after, the content of an element
 
         p::first-letter {
             color: #ff0000;
@@ -67,14 +67,14 @@
             content: url(smiley.gif);
         }
 
-###### The ::marker pseudo-element selects the markers of list items.
+##### The ::marker pseudo-element selects the markers of list items.
 
         ::marker {
             color: red;
             font-size: 23px;
         }
 
-###### The ::selection pseudo-element matches the portion of an element that is selected by a user.
+##### The ::selection pseudo-element matches the portion of an element that is selected by a user.
 
         ::selection {
             color: red;
@@ -82,7 +82,7 @@
         }
 
 
-###### Reference Links:
+##### Reference Links:
 
     https://www.w3schools.com/css
 
