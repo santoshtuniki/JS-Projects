@@ -4,9 +4,11 @@
 
 ###### For example, it can be used to:
     
-    1.  Style an element when a user mouses over it
-    2.  Style visited and unvisited links differently
-    3.  Style an element when it gets focus
+1.  Style an element when a user mouses over it
+
+2.  Style visited and unvisited links differently
+
+3.  Style an element when it gets focus
 
         /* unvisited link */
         a:link {
@@ -33,7 +35,7 @@
 
 > a:active MUST come after a:hover in the CSS definition in order to be effective! 
 
-###### Pseudo-class names are not case-sensitive.
+##### Pseudo-class names are not case-sensitive.
 
 - - - -
 
@@ -43,8 +45,9 @@
 
 ###### For example, it can be used to:
 
-    1.  Style the first letter, or line, of an element
-    2.  Insert content before, or after, the content of an element
+1.  Style the first letter, or line, of an element
+
+2.  Insert content before, or after, the content of an element
 
         p::first-letter {
             color: #ff0000;
