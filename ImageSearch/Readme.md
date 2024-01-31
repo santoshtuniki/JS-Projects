@@ -1,6 +1,6 @@
 #### What are Pseudo-classes?
 
-###### A pseudo-class is used to define a **special state** of an element.
+###### A pseudo-class is used to define a *special state* of an element.
 
 ###### For example, it can be used to:
     
@@ -29,9 +29,9 @@
         }
 
 
-###### a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective! 
+> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective! 
 
-###### a:active MUST come after a:hover in the CSS definition in order to be effective! 
+> a:active MUST come after a:hover in the CSS definition in order to be effective! 
 
 ###### Pseudo-class names are not case-sensitive.
 
@@ -39,7 +39,7 @@
 
 #### What are Pseudo-Elements?
 
-###### A CSS pseudo-element is used to style **specified parts** of an element.
+###### A CSS pseudo-element is used to style *specified parts* of an element.
 
 ###### For example, it can be used to:
 
