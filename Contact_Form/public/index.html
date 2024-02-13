@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+    <div class="container">
+        <h3 className="title">Contact Us</h3>
+        <p>
+            Let us know what you think! In order to provide better service,
+            please do not hesitate to give us your feedback. Thank you.
+        </p>
+        <form id="contact-form" method="post">
+            <div class="grid-container">
+                <input class="grid-item" type="text" placeholder="Name" id="name" required>
+                <input class="grid-item" type="email" placeholder="Email" id="email" required>
+            </div>
+            <input type="text" placeholder="Subject" id="subject" required>
+            <textarea placeholder="Message" id="message" rows="4" cols="100%" required></textarea>
+        </form>
+        <button type="submit" form="contact-form">Submit</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
