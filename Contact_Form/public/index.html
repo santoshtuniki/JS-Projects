@@ -16,13 +16,13 @@
             Let us know what you think! In order to provide better service,
             please do not hesitate to give us your feedback. Thank you.
         </p>
-        <form id="contact-form" method="post">
+        <form id="contact-form" method="post" enctype="multipart/form-data">
             <div class="grid-container">
-                <input class="grid-item" type="text" placeholder="Name" id="name" required>
-                <input class="grid-item" type="email" placeholder="Email" id="email" required>
+                <input class="grid-item" type="email" placeholder="From" name="from" id="from" required>
+                <input class="grid-item" type="email" placeholder="To" name="to" id="to" required>
             </div>
-            <input type="text" placeholder="Subject" id="subject" required>
-            <textarea placeholder="Message" id="message" rows="4" cols="100%" required></textarea>
+            <input type="text" placeholder="Subject" name="subject" id="subject" required>
+            <textarea placeholder="Message" name="message" id="message" rows="4" cols="100%" required></textarea>
         </form>
         <button type="submit" form="contact-form">Submit</button>
     </div>

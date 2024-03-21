@@ -1,10 +1,14 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
+const multer = require('multer');
 require("dotenv").config();
 
 // instantiate an express app
 const app = express();
+
+// instantiate multer
+const upload = multer();
 
 // cors
 app.use(cors({ origin: "*" }));
@@ -36,15 +40,12 @@ app.route("/").get(function (req, res) {
     res.sendFile(__dirname + "/public/index.html");
 });
 
-app.post('/send', (req, res, next) => {
-    var name = req.body.name;
-    var email = req.body.email;
-    var subject = req.body.subject;
-    var message = req.body.message;
+app.post('/send', upload.array(), (req, res) => {
+    const { from, to, subject, message } = req.body;
 
-    var mail = {
-        from: name,
-        to: email,
+    const mail = {
+        from: from,
+        to: to,
         subject: subject,
         text: message
     }
