@@ -72,6 +72,28 @@ ul {
         cursor: pointer;
         position: relative;
 
+        &::before {
+            content: '';
+            position: absolute;
+            height: 28px;
+            width: 28px;
+            border-radius: 50%;
+            background-image: url(images/unchecked.png);
+            background-size: cover;
+            background-position: center;
+            top: 8px;
+            left: 8px;
+        }
+
+        &.checked {
+            color: #555;
+            text-decoration: line-through;
+
+            &::before {
+                background-image: url(images/checked.png);
+            }
+        }
+
         & span {
             position: absolute;
             right: 0;
@@ -83,33 +105,13 @@ ul {
             line-height: 40px;
             text-align: center;
             border-radius: 50%;
+
+            &:hover {
+                background: #edeef0;
+            }
         }
 
-        & span:hover {
-            background: #edeef0;
-        }
-    }
 
-    li::before {
-        content: '';
-        position: absolute;
-        height: 28px;
-        width: 28px;
-        border-radius: 50%;
-        background-image: url(images/unchecked.png);
-        background-size: cover;
-        background-position: center;
-        top: 8px;
-        left: 8px;
-    }
-
-    & li.checked {
-        color: #555;
-        text-decoration: line-through;
-    }
-
-    & li.checked::before {
-        background-image: url(images/checked.png);
     }
 }
 
