@@ -37,3 +37,36 @@
 ##### express-fileupload - Access uploaded files using req.files
     
     app.use(fileUpload({ useTempFiles: true }));
+
+
+--------
+
+### VSCode Extensions
+
+##### Remotely browse and edit any GitHub repository
+
+    GitHub Repositories
+
+##### Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositor
+
+    GitLens — Git supercharged
+
+##### Material Design Icons for Visual Studio Code
+
+    Material Icon Theme
+
+##### Launch a development local Server with live reload feature for static & dynamic pages
+
+    Live Server
+
+##### Auto rename paired HTML/XML tag
+    
+    Auto Rename Tag
+
+##### Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
+
+    ES7+ React/Redux/React-Native snippets
+
+##### Code snippets for JavaScript in ES6 syntax
+
+    JavaScript (ES6) code snippets
